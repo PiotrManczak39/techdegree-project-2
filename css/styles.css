@@ -1,11 +1,66 @@
+/* Element selectors */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   background-color: #f7f6f3;
 }
 
 li  {
   list-style-type: none;
+  background-color: white;
+  margin: 0.4em 0;
+  padding: 10px;
+  display: block;
+}
+
+h1, h2, h3, h4, li, p {
+  font-family: 'Blinker', sans-serif;
 }
 
 ul {
   padding-left: 0;
+}
+
+/* Class selectors */
+
+.bottom {
+  border-top: solid 1px black;
+}
+
+.footer {
+  padding-top: 50px;
+  background-color: gray;
+  max-width: 100%;
+}
+
+.main-content {
+  padding-bottom: 40px;
+}
+
+.portret {
+  width: 70%;
+  height: auto;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.name {
+  float: left;
+}
+
+.link-to-top {
+  float: right;
 }

@@ -7,48 +7,75 @@
   <title>Markup project</title>
 </head>
 <body>
-  <header class="main-header">
-  <h1>Student Name</h1>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <img src="responsive_layout_v3/images/responsive-layout-profile.png"
-    alt="A person"/>
-    <p>Hi! I am front-end Developer who loves responsive design and css.
-    I recently finished a degree in front-end web development at Treehouse
-    and am excited to put all my skills to use!</p>
+  <div class="wrapper">
+    <header class="main-header">
+    <h1>Student Name</h1>
+      <nav>
+        <ul>
+          <li><a href="#"><strong>Home</strong></a></li>
+          <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+          <li><a href="#contact"><strong>Contact</strong></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <img src="responsive_layout_v3/images/responsive-layout-profile.png"
+      alt="A person" class="portret"/>
+      <p>Hi! I am front-end Developer who loves responsive design and css.
+      I recently finished a degree in front-end web development at Treehouse
+      and am excited to put all my skills to use!</p>
 
-    <h2>Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
 
-    <img src="responsive_layout_v3/images/portfolio-1.png" alt="Picture of
-    portfolio."/>
-    h2>Marketing Page</h2>
-    <p>This project shows The front page of a marketing website
-    meant for a specific business I am interested in.</p>
+      <img src="responsive_layout_v3/images/portfolio-1.png" alt="Picture of
+      portfolio." class="responsive"/>
+      <h2>Marketing Page</h2>
+      <p>This project shows The front page of a marketing website
+      meant for a specific business I am interested in.</p>
 
-    <img src="responsive_layout_v3/images/portfolio-2.png" alt="Picture of
-    portfolio."/>
-    <h2>Search Page</h2>
-    <p>This project searches through a specific database to find information
-    that the user is trying to look up.</p>
+      <img src="responsive_layout_v3/images/portfolio-2.png" alt="Picture of
+      search page." class="responsive"/>
+      <h2>Search Page</h2>
+      <p>This project searches through a specific database to find information
+      that the user is trying to look up.</p>
 
-    <img src="responsive_layout_v3/images/portfolio-3.png" alt="Picture of
-    portfolio."/>
-    <h2>Travel App</h2>
-    <p>This project compares travel times based on different transportation
-    methods and tells you the best one.</p>
+      <img src="responsive_layout_v3/images/portfolio-3.png" alt="Picture of
+      travel app." class="responsive"/>
+      <h2>Travel App</h2>
+      <p>This project compares travel times based on different transportation
+      methods and tells you the best one.</p>
 
-    <img src="responsive_layout_v3/images/portfolio-4.png" alt="Picture of
-    portfolio."/>
-    <h2>Myfavorite Sports</h2>
-    <p>This project uses mapping apis to plot points for my favorite Sports
-    in the city for a do-it-yourself walking tour.</p>
-  </main>
+      <img src="responsive_layout_v3/images/portfolio-4.png" alt="Picture of
+      favorite sports." class="responsive"/>
+      <h2>Myfavorite Sports</h2>
+      <p>This project uses mapping apis to plot points for my favorite Sports
+      in the city for a do-it-yourself walking tour.</p>
+
+      <img src="responsive_layout_v3/images/portfolio-5.png" alt="Picture of
+      photo gallery." class="responsive"/>
+      <h3>Photo Gallery</h3>
+      <p>This project shows pictures from a recent trip to the viewer and
+        allows them to easly navigate through photos.</p>
+
+      <img src="responsive_layout_v3/images/portfolio-6.png" alt="Picture of
+        calculator." class="responsive"/>
+      <h3>Calculator</h3>
+      <p>Someone can eneter in the numbers they want, and press the big blue
+        button and get the result.</p>
+    </main>
+
+    <footer class="footer">
+      <h4 id="contact">Contact</h4>
+      <p>If you are interested in chatting or want more information
+      about what I've been working on, I'd love to hear from you!</p>
+      <p>Phone <strong>+1(111)555-1234</strong></p>
+      <p>Email <strong>email@yoursite.com</strong></p>
+      <hr />
+      <div class="bottom">
+        <h4 class="name">Student name</h4>
+        <h5 class="link-to-top">BACK TO TOP</h5>
+      </div>
+    </footer>
+  </div><!-- end of wrapper -->
 </body>
 </html>
