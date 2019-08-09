@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Markup project</title>
-</head>
-<body>
+  <head>
+    <!-- Link for mobile devices -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="container group">
-      <header class="main-header">
-      <h1>Student Name</h1>
-        <nav>
-          <ul class="list">
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/stylesbis.css">
+    <title>Markup Project</title>
+  </head>
+  <body>
+
+    <header class="main-header">
+        <h1 class="name">Student Name</h1>
+        <nav class="main-nav">
+          <ul>
             <li><a href="#"><strong>Home</strong></a></li>
             <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
             <li><a href="#contact"><strong>Contact</strong></a></li>
           </ul>
         </nav>
-      </header>
-      
-      <main class="main-content">
+
         <img src="responsive_layout_v3/images/responsive-layout-profile.png"
         alt="A person" class="portret"/>
         <p class="portret-text">Hi! I am front-end Developer who loves responsive design and css.
         I recently finished a degree in front-end web development at Treehouse
         and am excited to put all my skills to use!</p>
-    </div><!-- End of .container -->
+   </header>
 
-      <h2 id="portfolio">Portfolio</h2>
+    <main>
+      <div class="container">
+        <h2 id="portfolio">Portfolio</h2>
 
-        <section class="part1">
+        <section class="part1 col">
           <img src="responsive_layout_v3/images/portfolio-1.png" alt="Picture of
           portfolio." class="responsive"/>
           <h2>Marketing Page</h2>
@@ -38,7 +41,7 @@
           meant for a specific business I am interested in.</p>
         </section>
 
-        <section class="part2">
+        <section class="part2 col">
         <img src="responsive_layout_v3/images/portfolio-2.png" alt="Picture of
         search page." class="responsive"/>
         <h2>Search Page</h2>
@@ -46,7 +49,7 @@
         that the user is trying to look up.</p>
         </section>
 
-        <section class="part3">
+        <section class="part3 col">
         <img src="responsive_layout_v3/images/portfolio-3.png" alt="Picture of
         travel app." class="responsive"/>
         <h2>Travel App</h2>
@@ -54,7 +57,7 @@
         methods and tells you the best one.</p>
         </section>
 
-        <section class="part4">
+        <section class="part4 col">
         <img src="responsive_layout_v3/images/portfolio-4.png" alt="Picture of
         favorite sports." class="responsive"/>
         <h2>Myfavorite Sports</h2>
@@ -62,7 +65,7 @@
         in the city for a do-it-yourself walking tour.</p>
         </section>
 
-        <section class="part5">
+        <section class="part5 col">
         <img src="responsive_layout_v3/images/portfolio-5.png" alt="Picture of
         photo gallery." class="responsive"/>
         <h3>Photo Gallery</h3>
@@ -70,30 +73,37 @@
           allows them to easly navigate through photos.</p>
         </section>
 
-        <section class="part6">
+        <section class="part6 col">
         <img src="responsive_layout_v3/images/portfolio-6.png" alt="Picture of
           calculator." class="responsive"/>
         <h3>Calculator</h3>
         <p>Someone can eneter in the numbers they want, and press the big blue
           button and get the result.</p>
         </section>
+      </div>
     </main>
 
-    <footer class="footer">
+    <footer class="main-footer">
       <h4 id="contact">Contact</h4>
       <p>If you are interested in chatting or want more information
       about what I've been working on, I'd love to hear from you!</p>
+      <br />
       <p>Phone <strong>+1(111)555-1234</strong></p>
+      <br />
       <p>Email <strong>email@yoursite.com</strong></p>
-      <div class="bottom group">
-        <h4 class="name">Student name</h4>
-        <ul class="link-to-top">
-          <li class="li1"><a href="#">BACK TO TOP</a></li>
+      <br />
+      <br />
+      <div class="nav-footer group">
+        <h4 class="name-footer">Student name</h4>
+        <ul class="list-footer">
+          <li class="li1"><a href="#"><strong>BACK TO TOP</strong></a></li>
           <li class="li2"><a href="#">Home</a></li>
           <li class="li3"><a href="#portfolio">Portfolio</a></li>
           <li class="li4"><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </footer>
-</body>
+
+    <script src=""></script>
+  </body>
 </html>

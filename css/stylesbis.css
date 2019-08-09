@@ -1,0 +1,104 @@
+/* General Selectors */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+footer {
+  background-color: #f9f4f4;
+}
+
+li {
+  list-style-type: none;
+  list-style-position: inside;
+  background-color: white;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* Class selector */
+
+.col {
+  padding: 0 1em;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.li2, .li3, .li4 {
+  display: none;
+}
+
+.list-footer a {
+  font-size: 0.9em;
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+.main-header {
+  background-color: #f9f4f4;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.main-nav {
+  margin: 15px 0;
+}
+
+.main-footer {
+  padding: 40px 1em 20px 1em;
+}
+
+.name,
+.main-nav a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 8px 12px;
+  color: black;
+  margin: 0.4em 0;
+}
+
+.main-nav {
+  padding-bottom: 20px;
+}
+
+.name {
+  margin: 0;
+}
+
+.name-footer {
+  float: left;
+  padding: 10px 15px;
+}
+
+.nav-footer {
+  padding-top: 18px;
+  border-top: 1px solid gray;
+}
+
+.portret {
+  width: 70%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* ---- Float clearfix ---- */
+
+.group::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
