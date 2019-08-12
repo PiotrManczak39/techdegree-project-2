@@ -4,53 +4,76 @@
   box-sizing: border-box;
   margin: 0;
   text-align: center;
+  font-family: Nunito;
 }
 
 footer {
   background-color: #f9f4f4;
 }
 
-li {
+.list-nav li {
   list-style-type: none;
   list-style-position: inside;
   background-color: white;
+}
+
+.list-footer li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+nav {
+  margin-top: 10px
 }
 
 ul {
   padding-left: 0;
 }
 
-/* Class selector */
+/* ID selectors */
 
-.col {
-  padding: 0 1em;
+#portfolio {
+  padding-bottom: 20px;
+}
+
+/* Class selectors */
+
+.col img {
+  padding-bottom: 15px;
+}
+
+.col > p,
+.col > h3 {
+  padding-bottom: 25px;
 }
 
 .container {
-  padding: 50px 0;
+  padding: 25px;
 }
 
 .li2, .li3, .li4 {
   display: none;
+  font-family: Nunito;
 }
 
 .list-footer a {
   font-size: 0.9em;
-  float: right;
+  display: inline-block;
   text-decoration: none;
   color: black;
   padding: 10px 15px;
 }
 
+.list-footer {
+  float: right;
+}
+
 .main-header {
   background-color: #f9f4f4;
-  padding: 20px;
+  padding: 0 0 20px 0;
   padding-bottom: 40px;
 }
 
-.main-nav {
-  margin: 15px 0;
-}
 
 .main-footer {
   padding: 40px 1em 20px 1em;
@@ -81,7 +104,7 @@ ul {
 
 .nav-footer {
   padding-top: 18px;
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
 }
 
 .portret {
@@ -110,9 +133,18 @@ ul {
   p {
     line-height: 1.5em;
   }
+
+  .col {
+    padding: 20px 10px;
+  }
+
   .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+  }
+
+  .main-header {
+    padding-bottom: 0;
   }
 
   .main-nav li {
@@ -124,24 +156,29 @@ ul {
   .portret-text {
     font-size: 1.1em;
     float: left;
-    width: 50%;
+    width: 60%;
     text-align: left;
     padding-right: 10px;
   }
 
   .portret {
     float: right;
-    width: 50%;
+    width: 40%;
   }
 
-  .part1, .part3, .part5 {
+  .part1, .part2 {
     width: 50%;
     float: left;
   }
 
-  .part2, .part4, .part6 {
+  .part3, .part4 {
     width: 50%;
-    float: right;
+    float: left;
+  }
+
+  .part5, .part6 {
+    width: 50%;
+    float: left;
   }
 
   .li1 {
@@ -174,6 +211,10 @@ ul {
   .part4, .part5, .part6 {
     width: 33%;
     float: left;
+  }
+
+  .portret-text {
+    padding-right: 55px;
   }
 
 }
