@@ -46,6 +46,9 @@ ul {
 .col > p,
 .col > h3 {
   padding-bottom: 25px;
+  margin: auto;
+  display: inline-block;
+  width: 90%;
 }
 
 .container {
